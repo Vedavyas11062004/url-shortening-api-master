@@ -1,0 +1,18 @@
+:root{
+--clr-primary-cyan:hsl(180, 66%, 49%);
+--clr-primary-DarkViolet: hsl(257, 27%, 26%);
+--clr-secondary-Red: hsl(0, 87%, 67%);
+--clr-neutral-Gray: hsl(0, 0%, 75%);
+--clr-neutral-GrayishViolet: hsl(257, 7%, 63%);
+--clr-neutral-VeryDarkBlue: hsl(255, 11%, 22%);
+--clr-neutral-VeryDarkViolet: hsl(260, 8%, 14%);
+--fs-body:18px;
+--ff-body: 'Poppins', sans-serif;
+--fw-semibold:500;
+--fw-bold:700;
+}
+
+body{
+    font-family: var(--ff-body);
+    overflow-x: hidden;
+}
