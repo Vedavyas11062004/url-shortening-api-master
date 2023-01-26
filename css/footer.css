@@ -22,6 +22,7 @@ footer {
 .leftPart{
   margin-top: 1rem;
   fill: whitesmoke;
+  height: 2rem;
 }
 .leftPart>svg{
   height: 5rem;
@@ -79,5 +80,9 @@ footer {
   .rightPart{
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .footerEle:nth-child(4) > ul{
+    margin-top: 0%;
+    padding-block: 2rem;
   }
 }

@@ -49,6 +49,9 @@
   font-weight: var(--fw-bold);
   font-size: var(--fs-body);
 }
+.right-1{
+  max-width: 350px;
+}
 .left-1 > button:hover {
   cursor: pointer;
   background-color: rgb(45, 221, 221);
