@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/dynamic-ele.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,13 +62,14 @@
       <section class="main__item container">
         <div class="main__item-nth-child">
           <form>
+            <span class="error-div"></span>
             <div>
-              <input type="text" placeholder="Shorten a link here..." />
-              <button>Shorten It!</button>
+              <input type="text" placeholder="Shorten a link here..." id="input"/>
+              <button id="button">Shorten It!</button>
             </div>
-            <div class="error"></div>
           </form>
         </div>
+        <div class="dynamic-div"></div>
         <div class="cards-top">
           <h2>Advanced Statistics</h2>
           <p>
@@ -184,5 +186,6 @@
       </div>
     </footer>
     <script src="./app.js"></script>
+    <script src="./api.js"></script>
   </body>
 </html>
