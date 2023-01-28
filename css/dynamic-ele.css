@@ -41,6 +41,10 @@
     padding-block: .5rem;
     border-radius: .5rem;
 }
+.copy-btn:hover{
+    cursor: pointer;
+    background-color: rgb(45, 221, 221);
+}
 .error-div{
   color:var(--clr-secondary-Red);
   margin-block: .5rem;

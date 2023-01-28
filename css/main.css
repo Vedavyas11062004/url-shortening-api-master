@@ -119,6 +119,10 @@
   font-weight: var(--fw-bold);
   font-size: var(--fs-body);
 }
+.main__item-nth-child > form > div > button:hover{
+  cursor: pointer;
+  background-color: rgb(45, 221, 221);
+}
 @media (max-width: 800px) {
   .main__item-nth-child > form > div {
     flex-direction: column;
@@ -289,7 +293,7 @@
   background-image: url(../images/bg-boost-desktop.svg);
   background-repeat: no-repeat;
 }
-.main__item:nth-child(3) > h2 {
+.main__item:nth-child(3) > h3 {
   color: whitesmoke;
   font-size: 250%;
   padding-bottom: 1.5rem;
