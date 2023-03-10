@@ -54,6 +54,7 @@ footer {
   display: flex;
   white-space: nowrap;
   flex-direction: column;
+  color: var(--clr-neutral-Gray);
 }
 .footerEle:nth-child(4) > ul {
   display: flex;
